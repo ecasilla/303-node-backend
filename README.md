@@ -11,7 +11,7 @@
 
 **Please have a local postgres instance running**
 
-`git clone https://github.com/ecailla/303-node-backend`  
+`git clone https://github.com/ecasilla/303-node-backend`  
 
 `cp .env.template .env`
 
@@ -89,6 +89,16 @@
     └── typings.d.ts
 
 ```
+
+
+# ROUTES
+**METHOD**|**ROUTE**
+:-----:|:-----:
+GET|/api/todos/
+GET|/api/todos/:id
+POST|/api/todos/
+PUT|/api/todos/:id
+DELETE|/api/todos/:id
 
 # <a name="team-members"></a>Team Members
 * "Ernie Casilla" <ecasilla@gmail.com>

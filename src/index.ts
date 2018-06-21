@@ -13,7 +13,6 @@ import expressConf from './config/express';
 import db from './db';
 import routes from './routes';
 import logger from './utils/logger';
-
 // Setup server
 const app = express();
 const server = http.createServer(app);

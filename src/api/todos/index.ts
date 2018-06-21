@@ -13,10 +13,10 @@ import {
 const router: express.Router = express.Router();
 
 const indexVal = celebrate(indexValidator.validator, indexValidator.options);
-const showVal = celebrate(showValidator.validator, indexValidator.options);
-const createVal = celebrate(createValidator.validator, indexValidator.options);
-const updateVal = celebrate(updateValidator.validator, indexValidator.options);
-const delVal = celebrate(destoryValidator.validator, indexValidator.options);
+const showVal = celebrate(showValidator.validator, showValidator.options);
+const createVal = celebrate(createValidator.validator, createValidator.options);
+const updateVal = celebrate(updateValidator.validator, updateValidator.options);
+const delVal = celebrate(destoryValidator.validator, destoryValidator.options);
 
 router.get('/', indexVal, controller.index);
 router.get('/:id', showVal, controller.show);
