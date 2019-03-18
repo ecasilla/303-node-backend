@@ -11,7 +11,7 @@
 
 **Please have a local postgres instance running**
 
-`git clone https://github.com/ecasilla/303-node-backend`  
+`git clone https://github.com/ecasilla/node-backend`  
 
 `cp .env.template .env`
 
